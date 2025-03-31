@@ -1,10 +1,9 @@
-import os  # Importing the os module for file and directory operations
-from pathlib import Path  # Corrected: `path` should be `Path`
-import logging  # Importing logging module for logging configuration
+import os  
+from pathlib import Path  
+import logging 
 
-# Corrected indentation issue before logging.basicConfig
-logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')  # Fixed format syntax error (missing `=` after format)
 
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s') 
 project_name = "textSummarization"  # Defining project name
 
 # List of files to be created
